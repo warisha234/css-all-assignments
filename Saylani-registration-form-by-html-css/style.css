@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    margin-top: auto;
+    margin-left: 150px;
+    margin-right: 100px;
+    width: 1000px;
+   
+}
+.registration-header {
+    text-align: center;
+    padding: 20px;
+   
+}
+.back {
+    position: relative;
+}
+
+.back::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 40px;
+    width: 900px;
+    height: 150px;
+    background-image: url("background2.png");
+    background-size: 900px 230px;
+    background-repeat: no-repeat;
+    opacity: 0.1; 
+    z-index: -1;
+}
+
+.header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    align-items: center;
+     width: 280px;
+}
+
+.header-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 80%; 
+    gap: 30px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+.social-icons img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f1214;
+    margin-left: 25px;
+}
+
+.student-portal {
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+    background: #ffffff;
+    color: rgb(69, 107, 235);
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 20px 20px 20px 20px;
+    border :2px solid rgb(68, 117, 252);
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.student-portal img {
+    width: 20px; 
+    height: 20px;
+}
+
+.student-portal:hover {
+    background: #ffffff;
+}
+.smit{
+    color: #706969;
+}
+.header-links{
+    margin-top:20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.header-links nav {
+    display: flex;
+    gap: 10px; 
+}
+.header-links a {
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #ebdfdf;
+    color: rgb(68, 117, 252);
+    font-weight: 300;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+#one {
+    color: #14c541;
+}
+
+/* input work start  */
+#select1{
+    margin-right: 300px;
+    font-size: 13px;
+    color: rgb(53, 101, 235);
+}
+#select2{
+    margin-right: 320px;
+    font-size: 13px;
+    color: rgb(53, 101, 235);
+}
+#select3{
+    margin-right: 260px;
+    font-size: 13px;
+    color: rgb(53, 101, 235);
+}
+#select4{
+    margin-right: 210px;
+    font-size: 13px;
+    color: rgb(53, 101, 235);
+}
+#select5{
+    margin-right: 350px;
+    font-size: 13px;
+    color: rgb(53, 101, 235);
+}
+
+#select6{
+    margin-right: 320px;
+    font-size: 13px;
+    color: rgb(53, 101, 235);
+}
+
+#select7{
+    margin-right: 360px;
+    font-size: 13px;
+    color: rgb(53, 101, 235);
+}
+
+#select8{
+    margin-right: 350px;
+    font-size: 13px;
+    color: rgb(53, 101, 235);
+}
+
+#select9{
+    margin-right: 360px;
+    font-size: 13px;
+    color: rgb(53, 101, 235);
+}
+
+#select10{
+    margin-right: 320px;
+    font-size: 13px;
+    color: rgb(53, 101, 235);
+}
+
+#select11{
+    margin-right: 320px;
+    font-size: 13px;
+    color: rgb(53, 101, 235);
+}
+
+#select12{
+    margin-right: 320px;
+    font-size: 13px;
+    color: rgb(53, 101, 235);
+}
+
+#select13{
+    margin-top: -10px;
+    margin-left: 150px;
+    margin-right: 300px;
+    font-size: 13px;
+    color: rgb(53, 101, 235);
+}
+.option-color{
+    color: rgb(127, 129, 136);
+}
+.form-group {
+    display: flex;
+    gap: 2px; 
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column; 
+}
+
+label {
+    margin-bottom: 5px; 
+}
+.input-group{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.input {
+    padding: 10px;
+    color: #6e6868c5;
+    border: 1px solid #8efa36;
+    border-radius: 5px;
+    width: 400px;
+    height: 48px;
+    outline: none;
+}
+.input:hover{
+    border: 1px solid #2683fd;
+}
+
+.input2 {
+    margin-left: 150px;
+    margin-top: 5px;
+    padding: 10px;
+    color: #6e6868c5;
+    border: 1px solid #8efa36;
+    border-radius: 5px;
+    width: 880px;
+    height: 48px;
+    outline: none;
+}
+
+.input2:hover{
+    border: 1px solid #2683fd;
+}
+/* upoad button style */
+.upload{
+    margin-top: 40px;
+    display: flex;
+    gap: 25px;  
+    margin-left: 235px;
+}
+
+.upload-btn{
+    width: 100px;
+    height: 110px;
+    padding-top: 45px;
+    padding-left: 25px;
+    background-color: #f7f9fc;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px dashed rgb(196, 190, 190);
+}
+.upload-btn button {
+    border: none;       
+    background: none;   
+    outline: none;      
+    font-size: 13px;
+    cursor: pointer;
+}
+.upload-text{
+    list-style: none;
+    font-size: 12px;
+}
+.upload-text li{
+    color: rgb(24, 25, 27);
+    padding: 3px;
+}
+.robot-part{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 250px;
+    border: 1px solid #afb1b4;
+    background-color: #f7f9fc;
+    width: 300px;
+    height: 80px;
+}
+.robot{
+    width: 60px;
+    height: 70px;
+    padding-top: 15px;
+    margin-left: 60px;
+    
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.p-robot{
+    margin-top: 40px;
+    font-size: 13px;
+    color: rgb(24, 25, 27);
+}
+
+.hr{
+    width: 900px;
+    margin-left: 230px;
+   
+}
+.para{
+    margin-left: 240px;
+    margin-top: 30px;   
+    font-size: small;
+}
+.button{
+    height: 50px;
+    width: 900px;
+    margin-left: 140px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #5d9cee;
+}
+.button:hover{
+    background-color: #2683fd;
+}
