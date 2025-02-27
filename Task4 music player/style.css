@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(to left ,rgb(124, 226, 252) , rgb(255, 87, 171))
+}
+.head{
+    color: rgb(145, 4, 74);
+    font-family: Edwardian Script ITC,sans-serif;
+}
+.main{
+    display: flex;
+}
+.container{
+    margin-left: 250px;
+    margin-top: 30px;
+    width: 330px;
+    height: 500px;
+    border-radius: 40px 0 40px 0;
+    border: 3px solid rgb(253, 205, 237);
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(to right ,rgb(124, 226, 252) , rgb(255, 87, 171));
+}
+.buttons{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.icons{
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 3px solid rgb(253, 205, 237);
+
+}
+.center{
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(253, 205, 237);
+    margin-left: 90px;
+    margin-top: 100px;
+}
+h3{
+    font-family: Lucida Handwriting;
+    font-size: 20px;
+    margin-left: 45px;
+    color: rgb(145, 4, 74);
+}
+.audio{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.heading{
+    margin-left: 60px;
+    margin-top: 250px;
+}
+.heading h1{
+    font-size: 40px;
+    text-shadow: 3px 3px 3px rgb(4, 107, 107);
+    color: rgb(8, 27, 20);
+    font-family: Lucida Handwriting;
+}
+.heading h2{
+    font-family: Lucida Handwriting;
+    color: rgb(8, 27, 20);
+    text-shadow: 3px 3px 3px rgb(4, 107, 107);
+    font-size: 20px;
+}
