@@ -1,0 +1,130 @@
+body{
+   background-color: #FFDD86;
+}
+
+.container{
+    height: auto;
+    width: 1150px;
+    background-color: #F8F4E8;
+    border-radius: 20px;
+    margin: 40px auto;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn1{
+    border: none;
+    background: linear-gradient(to right , #EAA357, #EA5E6F);
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
+.nav-container ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.logo{
+    width: 40px;
+    height: 30px;
+}
+.btn{
+    margin-right: 30px;
+}
+.btn2{
+    background-color: #F8F4E8;
+    border: none;
+}
+.btn3{
+    background-color: #4977EA;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    padding: 10px;
+}
+.note{
+    display: flex;
+    gap: 10px;
+}
+.note img{
+    margin-top: 20px;
+    width: 15px;
+    height: 15px;
+    
+}
+.btn4{
+    background-color: white;
+    border: none;
+    padding: 20px;
+    width: 300px;
+    height:50px ;
+}
+.btn4 p{
+    margin-right: 100px;
+    margin-top: -5px;
+    font-size: 15px;
+}
+.btn5{
+    background-color: #4977EA;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.side-image{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.footer{
+    display: flex;
+}
+.footer-text{
+    display: flex;
+    gap: 20px;
+   list-style: none;
+   margin-bottom: 30px;
+   margin-left: 40px;
+}
+.footer-img{
+    display: flex;
+    align-items: center;  
+
+    
+}
+
+.last-image{
+    width: 30px;
+    height: 30px;
+    margin-left: 500px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+}
+.set{
+    display:block
+}
+.para{
+   margin-top: -10px;
+   margin-left: 15px;
+}
