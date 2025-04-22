@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, rgb(218, 92, 92), rgb(255, 189, 189));
+    color: white;
+}
+.navbar{
+    background: linear-gradient(to right, rgb(218, 92, 92), rgb(255, 189, 189));
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.navbar ul { 
+    list-style: none;
+     display: flex;
+     justify-content: space-between;
+     }
+.navbar li{
+     margin-right: 20px;;
+}     
+.navbar li:hover{
+    background-image: linear-gradient(to bottom, #2ecc71, #1abc9c);
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+.navbar a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.header{
+    background-image: linear-gradient(to bottom, #2ecc71, #1abc9c); 
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+}
+.main > div{
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #2ecc71, #1abc9c);
+    color: black;
+    border: 5px solid #2c8033;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.main > div:hover{
+    background-color: #1abc9c;
+    border: 5px solid #16a085;
+    transform: scale(1.05);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.footer{
+    background-color: #2ecc71;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid  #34495e;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .main > div{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
